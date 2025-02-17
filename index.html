@@ -8,7 +8,7 @@
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script> 
 </head>
 <body>
-    <div class="container min-h-screen dark:bg-black px-28 py-5">
+    <div class="container min-h-screen dark:bg-black px-28 py-5 relative">
         <nav class="flex flex-wrap items-center justify-between">
             <img src="images/logo.png" class="w-40 cursor-pointer">
             <ul class="text-white flex flex-wrap text-center">
@@ -18,7 +18,21 @@
             </ul>
             <img src="images/cart.png" class="w-6 cursor-pointer">
         </nav>
+        <div class="text-white mt-30  max-w-xl">
+            <h1 class="text-6xl font-bold leading-normal mb-3">Groceries <br>delivery in <span class="font-light">10 mins</span></h1>
+            <p >Grocify offers a wide range of products including fresh vegetables, fruits, baked goods and more. Order your favorite groceries online and get them delivered to your doorstep in 10 minutes.</p>
+        </div>
+
+        <div class="flex items-center mt-10 ">
+            <button class="text-black bg bg-yellow-400 py-3 px-8 rounded-3xl font-medium hover:bg-green-400 cursor-pointer">Order Now</button>
+            <p class="text-white px-8 border mx-6 border-white py-3 rounded-3xl font-medium cursor-pointer ">Download now <span class="inline-block rotate-90">&#10148;</span></p>
+        </div>
+
+        <div>
+            <img src="images/grocery-image.png" class="w-full xl:w-170 xl:absolute right-20 bottom-0">
+        </div>
         
     </div>
 </body>
+</html>
 </html>
